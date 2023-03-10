@@ -1,7 +1,5 @@
 # TypingTest
-================
-Overview
-================
+===Overview===
 
 A simple typing test written in Python 3 by Scotty Myers
 
@@ -27,9 +25,7 @@ speed.
       
       -- Typing Accuracy will be calculated and displayed to the user after 60 seconds.
       
-================
-Skill Levels
-================
+===Skill Levels===
 
 Easy:  This skill level will randomly select common English words consisting of 5 letters.
 
@@ -40,9 +36,7 @@ Hard:  This skill level uses random 5-letter combinations to form non-English "w
        test knowledge of the actual keyboard layout versus mucsle memory of commonly used
        words and keystroke combinations.
        
-================
-TODO
-================
+===TODO===
        
 Use the getch() function from the curses module to read keyboard input without requiring
 the user to press Enter after each word.  Limiting each attempt to set number of keystrokes will

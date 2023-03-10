@@ -5,7 +5,7 @@ A simple typing test written in Python 3 by Scotty Myers
 
 This script will present the user with five letter words or combinations depending on selected skill level. 
 The user is prompted to type the displayed "word" as fast as possible, and submit the response by pressing
-the <Enter> key.
+the Enter key.
 
 Once the first word is displayed the program will run for 60 seconds issuing a new "word" when the current
 word has been typed and submitted.  The program will track the number of words displayed, the number of
@@ -40,7 +40,7 @@ Hard:  This skill level uses random 5-letter combinations to form non-English "w
        
 Use the getch() function from the curses module to read keyboard input without requiring
 the user to press Enter after each word.  Limiting each attempt to set number of keystrokes will
-remove the ability to <Backspace> and fix errors as well as remove the need to press <Enter>
+remove the ability to Backspace and fix errors as well as remove the need to press <Enter>
 after each word is typed.
 
 Create Insanity skill level by including random special characters, random capitalized letters, 
